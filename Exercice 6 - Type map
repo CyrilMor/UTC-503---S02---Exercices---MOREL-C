@@ -7,29 +7,40 @@
 //}
 void mapDouble(int e[],int r[]){
   int i;
-  for(i=0;i==5;i++)
+  for(i=0;i<N;i++)
   {
     r[i]=e[i]*2;
   }
 }
 
 void mapTriple(int e[], int r[]){
-//    r=e*3;
-}
+  int i;
+  for(i=0;i<N;i++)
+  {
+    r[i]=e[i]*3;
+  }
+  }
 
 void mapSquare(int e[], int r[]){
-  
-  
+  int i;
+  for(i=0;i<N;i++)
+  {
+    r[i]=e[i]^2;
+  }
 }
 
 void mapMaximize3(int e[], int r[]){
-  
-  
+  int i;
+  int maxi=3;
+  for(i=0;i<N;i++)
+  {
+    if(e[i]>maxi){
+      r[i]=maxi;
+    }
+    else{
+      r[i]=e[i];
+  }  
 }
-  
-  
-  
-  
 
 int main(){
   int e[N] = {1,5,2,4,3};
@@ -41,4 +52,5 @@ int main(){
   mapSquare (e,r_square);
   int r_maximize3[N];
   mapMaximize3(e,r_maximize3);
+  
   }
