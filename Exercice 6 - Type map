@@ -1,0 +1,3 @@
+#define N 5
+void mapDouble(int e[], int r[]){
+  //lire la ième case du tableau e: e[i]
