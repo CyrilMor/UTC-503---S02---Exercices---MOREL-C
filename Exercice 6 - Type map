@@ -1,3 +1,44 @@
 #define N 5
-void mapDouble(int e[], int r[]){
+//void mapDouble(int e[], int r[]){
   //lire la ième case du tableau e: e[i]
+  //affecter la ième cse du tableau r: r[i]=valeur;
+  //le tableau est accessible de 0 à N -1, ie de e[0] à e[4] en l'occurence
+  
+//}
+void mapDouble(int e[],int r[]){
+  int i;
+  for(i=0;i==5;i++)
+  {
+    r[i]=e[i]*2;
+  }
+}
+
+void mapTriple(int e[], int r[]){
+//    r=e*3;
+}
+
+void mapSquare(int e[], int r[]){
+  
+  
+}
+
+void mapMaximize3(int e[], int r[]){
+  
+  
+}
+  
+  
+  
+  
+
+int main(){
+  int e[N] = {1,5,2,4,3};
+  int r_double[N];
+  mapDouble(e,r_double); // r_double contiendra {2,10,4,8,6}
+  int r_triple[N];
+  mapTriple(e, r_triple);
+  int r_square[N];
+  mapSquare (e,r_square);
+  int r_maximize3[N];
+  mapMaximize3(e,r_maximize3);
+  }
