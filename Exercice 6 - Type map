@@ -7,18 +7,12 @@
  Description : Test fonction in C, Ansi-style
  ============================================================================
  */
-// int main() {
-
-  //return 0;
-//}
 
 #define N 5
-//void mapDouble(int e[], int r[]){
   //lire la ième case du tableau e: e[i]
   //affecter la ième cse du tableau r: r[i]=valeur;
   //le tableau est accessible de 0 à N -1, ie de e[0] à e[4] en l'occurence
   
-//}
 void mapDouble(int e[],int r[]){
   for(int i=0;i<N;i++)
   {
